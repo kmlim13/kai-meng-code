@@ -1,0 +1,48 @@
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#map 
+{
+        position: static;
+        width: 500px;
+        height: 500px;
+        border: double;
+        margin: 10px;
+}
+
+#address
+{
+        position: static;
+        width: 250px;
+        z-index: 5;
+        background-color: #fff;
+        text-align: left;
+        font-family: 'Roboto','sans-serif';
+        padding-left: 10px;
+        padding-bottom: 5px;
+        border-style: none none solid none;
+        border-bottom-width: thin;
+}
+
+#nickname
+{
+        position: static;
+        width: 250px;
+        z-index: 5;
+        background-color: #fff;
+        text-align: left;
+        font-family: 'Roboto','sans-serif';
+        padding-left: 10px;
+        padding-bottom: 5px;
+        border-style: none none solid none;
+        border-bottom-width: thin;
+}
+
+#save
+{
+    margin-left: 5px;
+    cursor: pointer;
+}
